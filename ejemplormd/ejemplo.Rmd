@@ -32,3 +32,17 @@ Un [ejemplo de liga](http://liga.com).
 > Markdown caracteres tipo email > para hacer blockquoting.
 
 HTML inline <abbr title="Hypertext Markup Language">inline</abbr> es soportado.
+
+### R
+El poder incluir código en R hace nuestro reporte más interesante:
+```{r}
+a <- rnorm(1000)
+plot(a)
+```
+
+Podemos agregar la opción `echo = FALSE ` para que no visualice el código:
+```{r echo = FALSE}
+a <- rnorm(1000)
+plot(a)
+```
+

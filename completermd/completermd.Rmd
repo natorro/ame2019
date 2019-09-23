@@ -1,0 +1,148 @@
+---
+title: "Untitled"
+author: "Carlos López Natarén"
+date: "9/23/2019"
+output: html_document
+---
+Enfasis
+*italic*   **bold**
+
+_italic_   __bold__
+
+## Encabezados:
+
+# Encabezado 1
+
+## Encabezado 2
+
+### Encabezado 3
+
+## Listas
+### Lista sin orden:
+
+* Item 1
+* Item 2
+    + Item 2a
+    + Item 2b
+
+### Lista Ordenada:
+
+1. Item 1
+2. Item 2
+3. Item 3
+    + Item 3a
+    + Item 3b
+
+### Código en R
+El código en R es evaluado y se imprime:
+
+```{r}
+summary(cars$dist)
+summary(cars$speed)
+```
+
+### Código en R en línea: 
+
+Hay `r nrow(cars)` carros estudiados.
+
+### Links
+Usamos una dirección de http o añadimos un link a una frase:
+
+http://example.com
+
+[frase con link](http://example.com)
+
+### Imagenes
+
+Imágenes en el web o archivos locales en el mismo directorio:
+
+![](https://cran.itam.mx/Rlogo.svg){width=250px}
+
+![texto de la imagen opcional](img.png)
+
+### Blockquotes
+
+Alguien alguna vez dijo:
+
+> bla bla bla bla  
+> bla bla.
+
+### Bloques de código sin ejecutarse
+Este tipo de bloques se desplegan pero no se evalúan:
+```
+This text is displayed verbatim / preformatted
+```
+### Código Inline
+
+Definimos la función `add` para calcular la suma de dos números.
+
+### Ecuaciones en LaTeX
+
+Ecuación Inline:
+$equation$
+
+Bloque de ecuación:
+
+$$ equation $$
+
+### Línea horizontal, retorno de carro:
+
+Tres o más asteriscos o guiones medios:
+
+******
+
+------
+
+### Tablas
+Primer encabezado  | Segundo encabezado
+------------- | -------------
+Celda | Celda
+Celda | Celda
+Celda | Celda
+
+### Ligas, referencias e imágenes
+
+Ligas
+Una [frase con liga][hola].
+Al final del documento:
+
+[hola]: http://ejemplo.com/ "Título"
+
+### Imágenes 
+![textp alterno][hola2]
+Al final del documento:
+
+[hola2]: img.png "Título"
+
+### Retorno de carro manual
+Terminamos una línea con dos o más espacios
+
+
+Hola   
+esta    
+es   
+una    
+prueba   
+
+### Otros
+
+superscript^2^
+
+~~tachado~~
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r cars}
+summary(cars)
+```
+
+## Figuras
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
