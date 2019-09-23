@@ -1,0 +1,38 @@
+---
+title: "Interactividad usando Shiny"
+runtime: shiny
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Este documento de R Markdown es interactivo gracias a Shiny. A diferencia de los reportes estáticos, podemos crear documentos interactivos que permiten al lector interactuar con las suposiciones del análisis y ver los resultados de manera inmediata. 
+
+Esto se puede detallar en la siguiente página:
+[Interactive Documents](http://rmarkdown.rstudio.com/authoring_shiny.html).
+
+## Entrada y Salida
+
+Podemos empotrar elementos interactivos de Shiny en nuestro documento. La salida se actualiza automáticamente cuando la entrada cambia. Este archivo demuestra cómo una gráfica de R estándar puede ser hecha interactiva al usar la función de Shiny: `renderPlot`. Las funciones `selectInput` y `sliderInput` crean los elementos para interactuar con la figura.
+
+```{r eruptions, echo=FALSE}
+inputPanel(
+  selectInput("n_breaks", label = "Number of bins:",
+              choices = c(10, 20, 35, 50), selected = 20),
+  
+  sliderInput("bw_adjust", label = "Bandwidth adjustment:",
+              min = 0.2, max = 2, value = 1, step = 0.2)
+)
+
+renderPlot({
+  hist(faithful$eruptions, probability = TRUE, breaks = as.numeric(input$n_breaks),
+       xlab = "Duración (minutos)", main = "Duración de la erupción de un Geyser",
+       ylab = "Densidad")
+  
+  dens <- density(faithful$eruptions, adjust = input$bw_adjust)
+  lines(dens, col = "blue")
+})
+```
+

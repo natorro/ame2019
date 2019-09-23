@@ -1,0 +1,110 @@
+from,to,label
+1,16,Microscopía electrónica
+1,21,Fabricación de Materiales
+1,72,Óptica
+1,22,"Espectrocopía raman, escaleras de stark y ondas de bloch en silicio poroso"
+1,23,Películas delgadas
+1,7,Óptica
+1,13,Óptica
+1,4,Óptica y rayos X
+1,15,Óptica
+1,9,Magnetismo
+1,6,Microscopía electrónica
+2,5,Termodinámica irreversible
+1,18,Óptica
+1,19,Irradiaciones
+1,17,Óptica
+1,20,Óptica
+2,25,Sistemas complejos
+2,27,Redes complejas
+1,24,Propiedades ópticas
+3,6,Plasmónica y nanofotonía
+3,9,Plasmónica y nanofotonía
+3,28,Plasmónica y nanofotonía
+3,29,Plasmónica y nanofotonía
+3,30,Plasmónica y nanofotonía
+3,31,Plasmónica y nanofotonía
+3,32,Plasmónica y nanofotonía
+3,33,Plasmónica y nanofotonía
+3,34,Plasmónica y nanofotonía
+3,35,Plasmónica y nanofotonía
+3,36,Plasmónica y nanofotonía
+3,37,Plasmónica y nanofotonía
+3,38,Plasmónica y nanofotonía
+4,1,Cristalografía y propiedades ópticas de sólidos
+4,7,Cristalografía y propiedades ópticas de sólidos
+4,13,Cristalografía y propiedades ópticas de sólidos
+4,39,Cristalografía y propiedades ópticas de sólidos
+4,40,Defectos en cristales
+4,41,Estructura y propiedades ópticas de cristales
+5,2,Termodinámica irreversible del envejecimiento
+5,26,Energéticos y sociofísica
+5,42,"Termodinámica irreversible del envejecimiento, energéticos, sociofísica y cosmología"
+5,43,"Termodinámica irreversible del envejecimiento, teoría general de termodinamica irreversible y fisica estadistica fuera de equilibrio"
+5,44,Cosmología
+5,45,Cosmología
+6,3,Espectroscopía óptica
+6,1,Espectroscopía óptica
+6,46,Moléculas en superficies
+6,47,Moléculas en superficies
+6,48,Microscopio de tunelaje de moléculas en superficies
+6,64,Microscopio de tunelaje de moléculas en superficies
+8,12,Nanopartículas
+8,49,Cristales líquidos y colestéricos
+8,50,Nanopartículas
+8,51,Nanopartículas
+8,52,Nanopartículas
+10,9,Ondas de espín
+10,45,Elasticidad
+10,53,NA
+10,54,Ondas de espín
+10,55,Elasticidad
+10,56,Elasticidad
+10,57,Elasticidad
+10,58,Escaleras de stark y ondas de bloch en silicio poroso
+10,22,Escaleras de stark y ondas de bloch en silicio poroso
+11,59,Burbuja de electrones en helio superfluído
+11,60,Burbuja de electrones en helio superfluído
+12,8,"Nanopartículas, superficies y conglomerados moleculares"
+12,61,"Nanopartículas, superficies y conglomerados moleculares"
+12,62,"Nanopartículas, superficies y conglomerados moleculares"
+12,63,"Nanopartículas, superficies y conglomerados moleculares"
+4,65,Crecicimiento de cristales
+11,66,Cementos
+11,67,Cementos
+11,68,Cementos
+11,69,Superconductividad de alta Tc
+11,70,Superconductividad de alta Tc
+10,71,Propiedades de transporte en sistema de varias superficies
+14,73,Materiales
+14,74,Nanomateriales
+14,75,Termoluminiscencia
+14,76,Recubrimientos
+14,77,Plasmones
+14,78,Nanotecnología
+14,79,Nanotecnología
+14,80,Parkinson
+14,81,Nanomateriales
+14,82,Sol-gel
+14,83,Catálisis
+14,84,Catálisis
+14,85,Fibers dating
+9,10,Dinámicas de Magnetización
+9,1,Propiedades ópticas
+9,15,Propiedades ópticas
+9,7,Propiedades ópticas
+9,13,Propiedades ópticas
+9,54,Cristales magnónicos
+9,86,Sensores magneticos
+9,87,Ondas de espín
+9,16,Materiales Magnéticos
+9,88,Materiales Magnéticos
+9,89,Materiales Magnéticos
+9,90,Materiales Magnéticos
+9,91 ,Materiales Magnéticos
+9,92,Materiales Magnéticos
+9,93,Materiales Magnéticos
+9,94,Materiales Magnéticos
+9,95,Materiales Magnéticos
+9,96,Materiales Magnéticos
+9,97,Materiales Magnéticos

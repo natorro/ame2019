@@ -1,0 +1,40 @@
+---
+title: "Red de colaboración"
+author: "Carlos López Natarén"
+date: "9/23/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(DT)
+library(visNetwork)
+setwd("/Volumes/EXTRASPACE/Dropbox/CURSOS DADOS/AME-2019/ame2019/ejemplonetwork")
+nodes<-read_csv("nodes.csv")
+edges<-read_csv("links.csv")
+nodes$label <- nodes$title
+```
+
+## Datos
+### Vamos ahora a crear una red de colaboraciones, para esto necesitamos dos data frames
+
+#### Nodos:
+```{r}
+my_nodes <- head(nodes, 20)
+datatable(my_nodes, class = 'cell-border stripe', style = 'bootstrap')
+```
+
+#### Y ligas:
+
+```{r}
+my_edges <- head(edges, 20)
+datatable(my_edges)
+```
+
+#### Para visualizarlo sólamente utilizamos la función `visNetwork`:
+```{r}
+visNetwork(nodes, edges) %>% 
+  visLegend() %>% visEdges(font = "10px arial orange")
+```
+
