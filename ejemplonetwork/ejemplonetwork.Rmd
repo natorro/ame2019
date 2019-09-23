@@ -21,14 +21,14 @@ nodes$label <- nodes$title
 
 #### Nodos:
 ```{r}
-my_nodes <- head(nodes, 20)
+my_nodes <- head(nodes, 10)
 datatable(my_nodes, class = 'cell-border stripe', style = 'bootstrap')
 ```
 
 #### Y ligas:
 
 ```{r}
-my_edges <- head(edges, 20)
+my_edges <- head(edges, 10)
 datatable(my_edges)
 ```
 

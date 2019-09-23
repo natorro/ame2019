@@ -1,0 +1,34 @@
+Título
+=======
+
+## Subtítulo
+Los párrafos se separan con
+una línea en blanco.
+
+Dos espacios al final de una línea  producen un retorno de carro.
+
+Atributos de texto: _itálica_, **negritas**, `monospacio`.
+
+Línea horizontal:
+
+---
+
+Lista:
+
+  * manzanas
+  * naranjas
+  * peras
+
+Lista numerada:
+
+  1. Primero
+  2. Segundo
+  3. Tercero
+
+Un [ejemplo de liga](http://liga.com).
+
+![Imagen](Icon-pictures.png "icon")
+
+> Markdown caracteres tipo email > para hacer blockquoting.
+
+HTML inline <abbr title="Hypertext Markup Language">inline</abbr> es soportado.
