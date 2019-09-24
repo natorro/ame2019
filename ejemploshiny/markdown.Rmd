@@ -12,7 +12,7 @@ También es posible empotrar una aplicación entera de Shiny dentro de un docume
 
 ```{r tabsets, echo=FALSE}
 shinyAppDir(
-  "/Volumes/EXTRASPACE/Dropbox/CURSOS DADOS/AME-2019/ame2019/ejemploshiny/",
+  "/Users/natorro/Dropbox/CURSOS DADOS/AME-2019/ame2019/ejemploshiny",
   options = list(
     width = "100%", height = 1000
   )

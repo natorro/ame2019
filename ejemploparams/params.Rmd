@@ -1,0 +1,23 @@
+---
+title: "Usando parámetros en un documento RMarkdown"
+output: pdf_document
+params:
+  number: 10
+  variance: 1
+---
+
+Los parámetros que cambian son el número generado de puntos por rnorm y la varianza.
+
+
+```{r echo = FALSE, warning = FALSE}
+library(tinytex)
+
+my_vector <- rnorm(params$number, mean = 0, sd = params$variance)
+
+plot(1:length(my_vector), my_vector, 
+     type = "l", 
+     main  = paste("n = ", params$number, "  ", "variance = ", params$variance), 
+     xlab = "X", ylab = "Y")
+```
+
+

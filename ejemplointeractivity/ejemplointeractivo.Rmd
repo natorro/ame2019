@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Este documento de R Markdown es interactivo gracias a Shiny. A diferencia de los reportes estáticos, podemos crear documentos interactivos que permiten al lector interactuar con las suposiciones del análisis y ver los resultados de manera inmediata. 
 
-Esto se puede detallar en la siguiente página:
+Esto se detalla en la siguiente página:
 [Interactive Documents](http://rmarkdown.rstudio.com/authoring_shiny.html).
 
 ## Entrada y Salida

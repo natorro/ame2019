@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(readr)
 library(DT)
 library(visNetwork)
-setwd("/Volumes/EXTRASPACE/Dropbox/CURSOS DADOS/AME-2019/ame2019/ejemplonetwork")
+setwd("/Users/natorro/Dropbox/CURSOS DADOS/AME-2019/ame2019/ejemplonetwork")
 nodes<-read_csv("nodes.csv")
 edges<-read_csv("links.csv")
 nodes$label <- nodes$title
